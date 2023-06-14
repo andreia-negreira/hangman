@@ -17,7 +17,7 @@ This is a simple text-based implementation of the classic game Hangman, created 
 
 This Hangman game implementation does not require any external libraries or dependencies. It only uses Python's built-in modules.
 
-## Personal situation
+## Acknowledgements
 
 The Hangman game implementation was created on 14/06/2023 by Andreia Negreira as part of the AI Boocamp at BeCode.org. The code is provided as an educational example and can be modified and expanded upon to suit different requirements and preferences.
 
