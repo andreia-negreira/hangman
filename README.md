@@ -4,7 +4,7 @@ This is a simple text-based implementation of the classic game Hangman, created 
 
 ## How to Play
 
-1. Run the hangman.py file in a Python environment.
+1. Run the main.py file in a Python environment.
 2. The game will start by selecting a random word from a pre-defined list.
 3. You will be presented with a series of underscores representing each letter in the word. Your goal is to guess the word by suggesting letters.
 4. Enter a letter guess and press Enter.
@@ -19,6 +19,6 @@ This Hangman game implementation does not require any external libraries or depe
 
 ## Personal situation
 
-The Hangman game implementation was created by Andreia Negreira as part of the AI Boocamp at BeCode.org. The code is provided as an educational example and can be modified and expanded upon to suit different requirements and preferences.
+The Hangman game implementation was created on 14/06/2023 by Andreia Negreira as part of the AI Boocamp at BeCode.org. The code is provided as an educational example and can be modified and expanded upon to suit different requirements and preferences.
 
 **Enjoy playing Hangman!**
