@@ -25,11 +25,14 @@ class Hangman:
         correct_position = []
         if letter.isalpha() and len(letter) == 1:
             if letter in self.word_to_find:
-                for i in range(len(self.word_to_find)):
-                    if self.word_to_find[i] == letter:     
-                        correct_position.append(i)
-                        self.correctly_guessed_letters[i] = letter
-                        self.turn_count += 1
+                if letter in self.correctly_guessed_letters:
+                    print('You guessed correctly, but you have already typed this letter. Try another one.')
+                else:                    
+                    for i in range(len(self.word_to_find)):
+                        if self.word_to_find[i] == letter:     
+                            correct_position.append(i)
+                            self.correctly_guessed_letters[i] = letter
+                            self.turn_count += 1
                 print(self.correctly_guessed_letters)            
             else:
                 if letter not in self.wrongly_guessed_letters:
